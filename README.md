@@ -1,8 +1,15 @@
-# facial-recognition
-Facial Recognition using OpenCV and Python
+# face-detection
 
-face-detect.py will read any image file and detect the number of faces
+Face Detection using OpenCV and Python
 
-webcam.py will use capture video from the webcam and detect the number of faces by capturing each frame
+Number of faces can be detected in any picture or from your webcam using OpenCV's Haar Cascade Classifier to distinguish the faces in the image.
 
-Both of the files use Haar Cascade Classifier to detect the number of faces.
+Run face-detect.py to detect number of faces in an image.
+(test1 = cv2.imread('This is the location of the image in your system'))
+
+Run webcam.py to detect the number of faces from your webcam.
+
+OpenCV and Python are required to run these files.
+Assuming you already have Python.
+
+Just install OpenCV using pip install opencv-python!
